@@ -1,16 +1,7 @@
-VOWEL = [
-	"a", 
-	"e", 
-	"i", 
-	"o", 
-	"u"
-]
-
 class Word
 	def initialize(original_word)
 		@original_word = original_word
 		@word_array = original_word.chars.to_a
-		@vowel_array = VOWEL
 	end
 	
 	def original_word
